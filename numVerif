@@ -1,0 +1,20 @@
+// Try edit message
+var numVerif = 0
+
+function checkNumber(numVerif) {
+    if (numVerif > 50) {
+        console.log("Bigger than 50");
+    }
+    else if (numVerif > 40) {
+        console.log("Bigger than 40");
+    }
+    else if (numVerif > 30) {
+        console.log("Bigger than 30");
+    }
+    else {
+        console.log("Lesser than or equal to 30");      
+    }
+}
+
+checkNumber(20);
+
